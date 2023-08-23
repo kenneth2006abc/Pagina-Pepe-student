@@ -1,0 +1,81 @@
+body{
+	display:block;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+	background-image: url('dino.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+		font-family: century gothic;
+}
+table{
+	margin: 0px auto;
+	display: block;
+	border-collapse: separate;
+	margin-top: 180px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+.t2{
+	box-shadow: 0 0 0px rgba(0, 0, 0, 0.0);
+
+}
+
+.tht2{
+	width: 100%;
+	text-transform: uppercase;
+	font-family: century gothic;
+}
+
+.contenedor_t2{
+	display: flex;
+}
+
+th{
+	margin: 200px;
+	background: linear-gradient(
+		90deg,
+		rgba(140, 43, 231, 1.0)25%,
+		rgba(61, 1, 245, 1.0)100%);
+	border:0;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+	text-transform:uppercase;
+	font-family: century gothic;
+}
+
+td{
+	border: 0;
+	border-color: rgb(55, 55, 55);
+	padding: 8px;
+	border-radius: 8px;
+	font-size: 12px;
+	font-weight: 600;
+	background-color: rgba(140, 43, 231, 1.0);
+	font-family: century gothic;
+	color: white;
+}
+
+.eliminar{
+	margin-left: 8px;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	background: red;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	font-family: century gothic;
+	font-weight: 600;
+	outline-style: none;
+}
+
+.eliminar:hover{
+	background: darkred;
+	color: #FBFF00;
+}

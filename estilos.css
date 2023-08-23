@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+body
+{
+    background: white;
+}
+
+#botonmodal:checked ~ .containermodal
+{
+    display: flex;
+}
+
+.botonmodal
+{
+    padding: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.botonmodal label
+{
+    padding: 10px 15px;
+    background: #5488a3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, 650%);
+}
+
+.botonmodal label:hover
+{
+    background-color: #134763;
+}
+
+#botonmodal
+{
+    display: none;
+}
+
+.containermodal
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(144,148,150,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.contentmodal 
+{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.contentmodal h2
+{
+    margin-bottom: 15px;
+}
+
+.contentmodal p
+{
+    padding: 15px 0px;
+}
+
+.contentmodal .btncerrar
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contentmodal .btncerrar label
+{
+    padding: 7px 10px;
+    background: #5488a3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.contentmodal .btncerrar label:hover
+{
+    background: #082f44;
+}
+.cerrarmodal
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+
+}
+
+.botonredireccionar
+{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+.contentmodal .botonredireccionar label
+{
+    padding: 7px 10px;
+    background: #5488a3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+.contentmodal .botonredireccionar label:hover
+{
+    background: #082f44;
+}
+
+
+
+@media screen and (masx-width:800px)
+{
+    .contentmodal 
+    {
+        width: 90%;
+        
+    }
+}

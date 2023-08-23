@@ -1,0 +1,651 @@
+*
+{
+	margin: 0px;
+	padding	: 0px;
+}
+
+/*
+#bloqueprincipal
+{
+    border: none;
+    position: absolute;
+    top: 0;
+}
+.contenedor
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100vh;
+    margin:0px;
+}
+*/
+
+header, footer, aside, nav, article, figure, figcaption,
+hgroup
+{
+    display: block;
+    width: 100%;
+}
+
+#barranaranja
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    position: relative;
+    width: 100%;
+    background: #ff5733;
+    font-family:    'Times New Roman', Times, serif;
+    font-size: 16.5px;
+    font-weight: 900;
+    color: #ffff;
+}
+#barraazul
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: #21225c;
+    border: none;
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: center;
+}
+#logo
+{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+#iniciarsesion
+{
+    position: relative;
+    left: 1090px;
+    bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p:hover 
+{
+    transform: translate(1.1,1.1);
+    transition: 0.5;
+    cursor: pointer;
+}
+p:active
+{
+    cursor: pointer;
+    color: #21225c;
+}
+#menu 
+{
+    position: relative;
+    top: 20px;
+    height: 1px;
+    width: 100%;
+    height: 120px;
+    color: #1a2b75;
+    border-top: 1px solid rgb(129, 128, 128);
+    
+}
+nav
+{
+    position: relative;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: left;
+    text-align: left;
+}
+
+#menu li 
+{
+    position: relative;
+    display: inline-block;
+    bottom: 40px;
+    list-style: none;
+    padding: 0 10px;
+    font: bold 14px verdana, sans-serif;
+}
+
+
+#modelo
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+img:hover
+{
+    transform: translate(1.1,1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 0;
+    border-radius: 5px;
+}
+*/
+
+h1 
+{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#agrupar 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border: none;
+}
+
+
+
+
+#seccion 
+{
+    display: block;
+    width: 100%;
+}
+
+#columna 
+{
+    font: bold 15px verdana, sans-serif;
+    float: left;
+    width: 186px;
+    border: none;
+}
+
+#pie 
+{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ffffff;
+}
+article 
+{
+    border: none;
+}
+article footer 
+{
+    text-align: right;
+}
+
+time 
+{
+    color: #EAEAAE;
+}
+
+figcaption 
+{
+    font: italic 14px verdana, sans-serif;
+}
+
+
+.principal:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+.fotos:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+.videos:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+.contacto:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+@font-face 
+{
+    font-family: "goodnight";
+    src: url(AQRADA.otf);
+}
+a
+{
+    text-decoration: none;
+    color: #1a2b75;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+#hombre
+{
+    font-size: 15px;
+    background: #ffffff;
+    position: relative;
+    justify-content: center;
+    left: 350px;
+    top: 80px;
+    border: 1px solid #cfc7c7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1a2b75;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#hombre:hover
+{
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+    
+}
+#mujer
+{
+    font-size: 15px;
+    background: #ffffff;
+    position: relative;
+    left: 350px;
+    top: 92px;
+    border: 1px solid #cfc7c7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1a2b75;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#mujer:hover
+{
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+
+
+
+#lomasnuevo
+{
+    position: relative;
+    top: 120px;
+    left: 320px;
+    text-transform: uppercase;
+    font-family: Century gothic;
+    font-size: 25px;
+    text-align: center;
+    color: #1a2b75;
+}
+
+
+
+#comentarios
+{
+    position: relative;
+    left: 90px;
+    width: 650px;
+    height: 50px;
+    background: #273055;
+    display: block;
+    
+}
+
+#caja-comentario
+{
+    
+    width: 650px;
+    height: 120px;
+    border: none;
+    border: 1px solid black;
+    display: block;
+    color: #fff;
+}
+
+#seccion-man
+{
+    position: relative;
+    bottom: 10px;
+    height: 1px;
+    width: 100%;
+    height: 65px;
+    color: #1a2b75;
+    border-top: 1px solid rgb(129, 128, 128);
+    border-bottom: 1px solid rgb(129, 128, 128);
+}
+
+#seccion-man li
+{
+    position: relative;
+    display: inline-block;
+    bottom: 40px;
+    list-style: none;
+    padding: 0 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inicio li
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inicio:hover
+{
+    cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+
+.inicio a
+{
+    text-decoration: none;
+    color: #696968;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px; 
+}
+
+.refrescar li
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.refrescar a
+{
+    text-decoration: none;
+    color: #ee5903;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.refrescar:hover
+{
+    cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+
+#imagen1
+{
+    position: relative;
+    display: flex;
+    width: 250px;
+    top: 50px;
+    left: 120px;
+}
+
+#logo1
+{
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    top: 60px;
+    right: 225px;
+}
+#logo1:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.89);
+    outline: solid white;
+}
+
+#imagen1-p
+{
+    position: relative;
+    top: 60px;
+    left: 85px;
+    font-family: century gothic;
+    color: #21225c;
+    text-align: left;
+}
+
+#imagen2
+{
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 333px;
+    bottom: 356px;
+    left: 410px;
+}
+
+#logo2
+{
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    bottom: 346px;
+    left: 70px;
+}
+
+#logo2:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.89);
+    outline: solid white;
+}
+
+#imagen2-p
+{
+    position: relative;
+    bottom: 346px;
+    left: 380px;
+    font-family: century gothic;
+    color: #21225c;
+    text-align: left;
+}
+
+#botonmodal:checked ~ .containermodal
+{
+    display: flex;
+}
+
+.botonmodal
+{
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.botonmodal label
+{
+    padding: 10px 15px;
+    background: #ffffff;
+    color: #1a2b75;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(270%, -5vh);
+}
+
+.botonmodal label:hover
+{
+    background-color: #ffffff;
+}
+
+#botonmodal
+{
+    display: none;
+}
+
+.containermodal
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(144,148,150,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.contentmodal 
+{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.contentmodal h2
+{
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.contentmodal p
+{
+    padding: 1px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contentmodal .btncerrar
+{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.contentmodal .btncerrar label
+{
+    padding: 7px 10px;
+    background: #ffffff;
+    color: #1a2b75;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.contentmodal .btncerrar label:hover
+{
+    background: #ffffff;
+    border: 0;
+}
+.cerrarmodal
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+
+}
+
+.botonredireccionar
+{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+.contentmodal .botonredireccionar label
+{
+    padding: 7px 10px;
+    background: #ffffff;
+    color: rgb(51, 47, 47);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+.contentmodal .botonredireccionar label:hover
+{
+    background: #ffffff;
+}
+
+
+
+@media screen and (masx-width:800px)
+{
+    .contentmodal 
+    {
+        width: 90%;
+        
+    }
+}
+
+.contentmodal input[type="text"],
+.contentmodal input[type="password"],
+.contentmodal button
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #000000;
+    width: 200px;
+    outline: none;
+    color: #1a2b75;
+    border-radius: 24px;
+    transition: 0.5s;
+    box-shadow: (0,0, 0, 0.2);
+
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.contentmodal input[type="text"]:focus,
+.contentmodal input[type="password"]:focus
+{
+    width: 280px;
+    border-color: #000000;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

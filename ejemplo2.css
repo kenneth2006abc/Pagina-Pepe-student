@@ -1,0 +1,597 @@
+*
+{
+	margin: 0px;
+	padding	: 0px;
+
+	overflow-x: hidden;
+
+
+}
+
+/*
+#bloqueprincipal
+{
+    border: none;
+    position: absolute;
+    top: 0;
+}
+.contenedor
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100vh;
+    margin:0px;
+}
+*/
+
+header, footer, aside, nav, article, figure, figcaption,
+hgroup
+{
+    display: block;
+    width: 100%;
+}
+
+#barranaranja
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+		z-index: 999;
+    width: 100%;
+    background: #ff5733;
+    font-family:    Times New Roman, Times, serif;
+    font-size: 16.5px;
+    font-weight: 900;
+    color: #ffff;
+}
+#barraazul
+{
+    width: 100%;
+    height: 20px;
+    background: #21225c;
+    border: none;
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: center;
+}
+.containerlogin
+{
+    display: flex;
+    align-items: center;
+}
+
+.containerlogin p{
+
+    flex: 1;
+    margin-right: 10px;
+}
+img
+{
+    max-height: 100%;
+}
+p:hover
+{
+    transform: translate(1.1,1.1);
+    transition: 0.5;
+    cursor: pointer;
+}
+p:active
+{
+    cursor: pointer;
+    color: #21225c;
+}
+#menu
+{
+    display: flex;
+    top: 20px;
+    height: 1px;
+    width: 100%;
+    height: 120px;
+    color: #1a2b75;
+    border-top: 1px solid rgb(129, 128, 128);
+
+}
+nav
+{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: left;
+    text-align: left;
+}
+
+#menu li
+{
+
+    display: inline-block;
+    bottom: 40px;
+    list-style: none;
+    padding: 0 10px;
+    font: bold 14px verdana, sans-serif;
+}
+
+
+#modelo
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+		z-index: 1;
+}
+
+/*
+img:hover
+{
+    transform: translate(1.1,1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border: 0;
+    border-radius: 5px;
+}
+*/
+
+
+
+
+
+h2 {
+  margin-bottom: 15px;
+}
+
+#columna
+{
+    font: bold 15px verdana, sans-serif;
+    float: left;
+    width: 186px;
+    border: none;
+}
+
+
+
+.principal:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+.fotos:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+.videos:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+.contacto:hover
+{
+	cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+@font-face
+{
+    font-family: "goodnight";
+    src: url(AQRADA.otf);
+}
+a
+{
+    text-decoration: none;
+    color: #1a2b75;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+#hombre
+{
+    font-size: 15px;
+    background: #ffffff;
+    position: relative;
+    justify-content: center;
+    left: 350px;
+    top: 80px;
+    border: 1px solid #cfc7c7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1a2b75;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#hombre:hover
+{
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+#mujer
+{
+    font-size: 15px;
+    background: #ffffff;
+    position: relative;
+    left: 350px;
+    top: 92px;
+    border: 1px solid #cfc7c7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1a2b75;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#mujer:hover
+{
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+
+#comentarios
+{
+    position: relative;
+    left: 90px;
+    width: 650px;
+    height: 50px;
+    background: #273055;
+    display: block;
+
+}
+
+#seccion-man li
+{
+
+    display: inline-block;
+		position: static;
+		top: 11px;
+    list-style: none;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inicio:hover
+{
+    cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+}
+
+.inicio a
+{
+    text-decoration: none;
+    color: #696968;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+
+.refrescar li
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.refrescar a
+{
+    text-decoration: none;
+    color: #ee5903;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.refrescar:hover
+{
+    cursor: pointer;
+    color: #ff5733;
+    transform: scale(1.1 , 1.1);
+    transition: 0.5s;
+
+}
+
+.grid-container
+{
+    display: flex;
+}
+
+.box
+{
+    flex: 1;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 40px;
+}
+.box img
+{
+    max-width: 100%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 5px;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container
+{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: -10px;
+    margin-top: 15px;
+    margin-left: 90px;
+    padding: 5px;
+}
+
+.grid-container p
+{
+    font-family: century gothic;
+    text-transform: uppercase;
+    color: #1a2b75;
+}
+
+.grid-container :hover
+{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    transition: 0.1s;
+}
+
+.box
+{
+    text-align: center;
+}
+
+#botonmodal:checked ~ .containermodal
+{
+    display: flex;
+}
+
+.botonmodal
+{
+
+    display: flex;
+  	justify-content: flex-end;
+		padding-right:  50px;
+		bottom: 20px;
+    position: relative;
+}
+
+.botonmodal label
+{
+    padding: 10px 15px;
+    color: #1a2b75;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.botonmodal label:hover
+{
+    background-color: #ffffff;
+}
+
+#botonmodal
+{
+    display: none;
+}
+
+.containermodal
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(144,148,150,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.contentmodal
+{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.contentmodal h2
+{
+    margin-bottom: 1px;
+    text-align: center;
+		font-family: century gothic;
+}
+
+.contentmodal p
+{
+    padding: 1px;
+    margin-top: 20px;
+    text-align: center;
+		font-family: century gothic;
+}
+
+.contentmodal .btncerrar
+{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.contentmodal .btncerrar label
+{
+    padding: 7px 10px;
+    background: #ffffff;
+    color: #1a2b75;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.contentmodal .btncerrar label:hover
+{
+    background: #ffffff;
+    border: 0;
+}
+.cerrarmodal
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+
+}
+
+.botonredireccionar
+{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+.contentmodal .botonredireccionar label
+{
+    padding: 7px 10px;
+    background: #ffffff;
+    color: rgb(51, 47, 47);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+.contentmodal .botonredireccionar label:hover
+{
+    background: #ffffff;
+}
+
+.btncerrar label a
+{
+	text-decoration: none;
+}
+
+
+
+@media screen and (masx-width:800px)
+{
+    .contentmodal
+    {
+        width: 90%;
+
+    }
+}
+
+.contentmodal input[type="email"],
+.contentmodal input[type="password"],
+.contentmodal input[type="submit"]
+
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #000000;
+    width: 200px;
+    outline: none;
+    color: #1a2b75;
+    border-radius: 24px;
+    transition: 0.5s;
+    box-shadow: (0,0, 0, 0.2);
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.contentmodal input[type="email"]:focus,
+.contentmodal input[type="password"]:focus
+{
+    width: 280px;
+    border-color: #000000;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#seccioncomentarios
+{
+	background: white;
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+	height: 53vh;
+	margin-top: 5px;
+	left: 50vh;
+	font-family: century gothic;
+}
+
+#seccioncomentarios p
+{
+
+	padding-top:  20px;
+	padding-bottom: 20px;
+	display: block;
+	font-size: 25px;
+	font-family: century gothic;
+
+}
+
+#seccioncomentarios textarea
+{
+
+	border-radius: 5px;
+	height: 5vh;
+	margin-top: 55px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#seccioncomentarios textarea :hover
+{
+	background: gray;
+}
+
+#seccioncomentarios input[type="submit"]
+{
+	display: block;
+	width: 100px;
+	height: 5vh;
+	position: relative;
+	margin-top: 30px;
+	left: 43%;
+	color: #1a2b75;
+	border-radius: 5px;
+	transition: 0.5s;
+	box-shadow: 0 0 20px (0,0, 0, 0.2);
+	font-family: century gothic;
+
+
+}
