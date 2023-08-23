@@ -1,0 +1,93 @@
+body{
+	box-sizing: border-box;
+	font-family: Century Gothic, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+	background-image: url('dino.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+table{
+	margin: 0px auto;
+	display: block;
+	border-collapse: separate;
+	margin-top: 50px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+
+}
+
+th{
+	margin: 200px;
+	background: linear-gradient(
+		90deg,
+		rgba(140, 43, 231, 1.0)25%,
+		rgba(61, 1, 245, 1.0)100%);
+	border:0;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+	text-transform:uppercase;
+	font-family: century gothic;
+}
+
+td{
+	border: 0;
+	padding: 8px;
+	border-radius: 8px;
+	font-size: 12px;
+	font-weight: 600;
+	font-family: century gothic;
+	background-color: rgba(140, 43, 231, 1.0);
+	color: white;
+}
+
+.eliminar{
+	margin-left: 8px;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	background: rgb(180, 4, 4);
+	box-shadow: 3px 3px 1px rgba(79, 2, 2, 1);
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	font-family: century gothic;
+	font-weight: 600;
+	outline-style: none;
+	border: none;
+}
+
+.eliminacion:hover{
+	background: darkred;
+	box-shadow: 3px 3px 1px rgba(79, 2, 2, 1);
+	color: #bbb;
+}
+
+.eliminar:active{
+	background: #6E0707;
+	color: #bbb;
+	box-shadow: 1px 1px 1px rgba(79, 2, 2, 1);
+}
+
+.celda_boton
+{
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	font-family: century gothic;
+	font-weight: 600;
+	outline-style: none;
+	border: none;
+	
+
+}

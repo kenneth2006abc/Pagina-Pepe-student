@@ -1,0 +1,147 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body{
+	box-sizing: border-box;
+	background: #B1B9B4;
+	font-family: century Gothic, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url('dino.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.logo img
+{
+	border-radius: 5px;
+	width: 100%;
+	max-width: 300px;
+	border: none;
+}
+form{
+	margin-top: 20px;
+	border: 0;
+	background: #fff;
+	padding: 35px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 380px;
+	z-index: 100;
+}
+
+form h2{
+	font-size: 35px;
+
+}
+#gestion
+{
+	color: red;
+}
+form p{
+	font-size: 18px;
+	font-weight: 700;
+	color: #1a2b75;
+	margin-bottom: 35px;
+}
+.input-wrapper{
+	position: relative;
+	width: 305px;
+	margin-bottom: 35px;
+}
+input{
+	color: #1a2b75;
+	padding: 20px 15px 20px 60px;
+	width: 100%;
+	border-radius: 20px;
+	border: 0;
+	box-shadow: 0 0 5px rgba(0, 0,0, 0.5);
+	/*outline: none;*/
+	font-size: 16px;
+	outline-color: #1162b3;
+	font-family: century gothic;
+}
+
+input::placeholder{
+	font-size: 16px;
+	color: #1a2b75;
+}
+.input-icon{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.btn{
+	padding: 14px;
+	margin: 10px 0;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0,0.4);
+	color: #1a2b75;
+	font-size:14px;
+	cursor: pointer;
+
+}
+.btn:hover
+{
+	background: #C4CEC8;
+	transition: 300ms;
+}
+
+.success{
+	position: absolute;
+	transform: translateY(550px);
+	top: 50px;
+	color: #00c83c;
+	font-size: 18px;
+}
+
+.error{
+	position: absolute;
+	transform: translateY(550px);
+	top:50px;
+	color: #e02d00;
+	font-size: 18px;
+
+}
+@media(max-width:991px)
+{
+	body
+	{
+		padding:10px;
+		background-color: rgb(35, 35, 35);
+	}
+
+
+form{
+	padding: 20px;
+	width: 100%;
+}
+
+.input-wrapper{
+	position: relative;
+	width: 86%;
+	margin-bottom: 35px;
+}
+
+input{
+	padding: 20px 0 px 20px 45px;
+}
+
+.input-icon
+{
+	height: 20px;
+	width: 20px;
+}
+}
